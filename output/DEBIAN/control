@@ -1,9 +1,9 @@
 Section: utils
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://github.com/astral-sh/ruff
 Package: ruff
-Version: ruff_VERSION-BUILD_VERSION~griffo
+Version: ruff_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Description: An extremely fast Python linter and code formatter, written in Rust.
 

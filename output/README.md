@@ -1,5 +1,7 @@
 # ruff
 
+> Fork of [dariogriffo/ruff-debian](https://github.com/dariogriffo/ruff-debian) (MIT); the original packaging is by Dario Griffo. Served at [deb.gaofn.xyz](https://deb.gaofn.xyz) for Debian 12 (bookworm) and 13 (trixie).
+
 An extremely fast Python linter and code formatter, written in Rust.
 
 Ruff can replace Flake8, isort, Black and dozens of plugins while running
@@ -8,5 +10,5 @@ of popular plugins.
 
 - Upstream: https://github.com/astral-sh/ruff
 - Documentation: https://docs.astral.sh/ruff/
-- Packaging: https://github.com/dariogriffo/ruff-debian
-- Repository: https://deb.griffo.io
+- Packaging: https://github.com/gaofengnan/ruff-debian
+- Repository: https://deb.gaofn.xyz

@@ -76,9 +76,9 @@ build_architecture() {
     rm -f "${ruff_release}.tar.gz"
     
     # One package for every suite: upstream ships one binary per architecture,
-    # so only the old ~<suite> version suffix ever differed. The fixed ~griffo
+    # so only the old ~<suite> version suffix ever differed. The fixed ~gaofn
     # keeps it below the distro's own build of the same version.
-    FULL_VERSION="$ruff_VERSION-${BUILD_VERSION}~griffo_${build_arch}"
+    FULL_VERSION="$ruff_VERSION-${BUILD_VERSION}~gaofn_${build_arch}"
     echo "  Building $FULL_VERSION"
     
     if ! docker build . -t "ruff-$build_arch" \
